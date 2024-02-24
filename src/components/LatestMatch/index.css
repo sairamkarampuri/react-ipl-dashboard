@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.latest-match-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+}
+.latest-team-name {
+  font-size: 24px;
+}
+.first-section {
+  width: 35%;
+  text-align: left;
+}
+.middle-section {
+  width: 25%;
+  text-align: center;
+}
+.end-section {
+  width: 35%;
+  text-align: right;
+}
+.latest-team-logo {
+  width: 60%;
+}
+.sub-headings {
+  font-size: 20px;
+  margin: 5px 0;
+}
+.output-result-text {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.horizontal-line{
+  display: none;
+}
+/* ---------------------------------------------------------------- */
+@media (width <= 768px) {
+  .latest-match-container {
+    flex-wrap: wrap;
+  }
+  .first-section {
+    width: 75%;
+  }
+  .latest-team-logo {
+    width: 100%;
+  }
+  .end-section {
+    width: 50%;
+    text-align: left;
+  }
+  .sub-headings {
+    font-size: 18px;
+  }
+  .output-result-text {
+    font-size: 14px;
+  }
+  .horizontal-line{
+    display: block;
+    border-color: #475569;
+    width: 100%;
+  }
+}
